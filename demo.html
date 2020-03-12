@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div id="tavoos-video-player" class="embed-responsive-item"></div>
+
+    <script src="jwplayer.js"></script>
+
+    <script>
+        jwplayer("tavoos-video-player").setup({
+            "playbackRateControls": "true",
+            "timeSliderAbove": "true",
+            "width": "100%",
+            "mute": "false",
+            "aspectratio": "16:9",
+
+
+            "qualityLabels": { "1": "1080p", "2": "720p", "3": "480p", "4": "360p", "5": "240p", "6": "144p",  },
+
+            "playlist": [{
+                "image": "https://tavoos.net/tavoos_contents/uploads/contentuploads/2020/03/10/IXBco21xMa5Pyds2i10wIOpmDVCbO0mY0OAzCz5W.mp4-thumbnail.jpg",
+                "sources": [
+
+                    {
+                        "file": "https://tavoos.net/tavoos_contents/uploads/contentuploads/2020/03/10/IXBco21xMa5Pyds2i10wIOpmDVCbO0mY0OAzCz5W.mp4",
+                        "type": "mp4",
+                        "label": "720p"
+                    },
+
+
+                    {
+                        "file": "https://tavoos.net/tavoos_contents/uploads/contentuploads/2020/03/10/IXBco21xMa5Pyds2i10wIOpmDVCbO0mY0OAzCz5W.mp4-vast.mp4",
+                        "label": "360p"
+                    }
+
+                ],
+
+            }],
+            skin:
+                {
+                    active: '#0082ce',
+                    controlbar: {
+                        iconsActive: '#E20022',
+                        icons: '#fff'
+                    },
+                    timeslider: {
+                        progress: '#E20022'
+                    },
+                },
+
+            "autostart": "viewable",
+
+
+            advertising: {
+                client: 'vast.js',
+                tag: 'https://tavoos.net/services/vast/bwC2LvAW-ggRw-8Ixh-YIwX-SJ4O0ZOSNSAf/26',
+                admessage: 'اتمام نمایش تبلیغ تا xx ثانیه دیگر',
+                cuetext: 'تبلیغ',
+                skipmessage: 'رد کردن تبلیغ (xx ثانیه)',
+                skiptext: 'رد کردن تبلیغ',
+                requestTimeout: 7000
+            },
+
+
+            "plugins": {
+                'vastlink.js': {},
+
+
+            }
+
+        });
+    </script>
+
+</body>
+</html>
