@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VAST version="3.0">
+    <Ad id="1">
+        <InLine>
+            <AdSystem>Tavoos</AdSystem>
+            <AdTitle>خرید کن کمتر پرداخت کن!</AdTitle>
+            <Description>قسطی کلاب - نقدی</Description>
+            <Creatives>
+                <Creative sequence="1" id="1">
+                    <Linear skipoffset="00:00:05">
+                        <Duration>00:00:20</Duration>
+                        <TrackingEvents><Tracking event="start"><![CDATA[http://fastclickplatform.com/services/vast/5JDKhdZ4-bPHG-wsFs-V3de-1DzKEWJdiHTd/59/campaigns/36/contents/54/5e7077cb4aa5a/75i0mxaSEP/event/start]]></Tracking><Tracking event="progress" offset="00:00:05.000"><![CDATA[http://fastclickplatform.com/services/vast/5JDKhdZ4-bPHG-wsFs-V3de-1DzKEWJdiHTd/59/campaigns/36/contents/54/5e7077cb4aa5a/75i0mxaSEP/time/firstQuartile]]></Tracking><Tracking event="firstQuartile"><![CDATA[http://fastclickplatform.com/services/vast/5JDKhdZ4-bPHG-wsFs-V3de-1DzKEWJdiHTd/59/campaigns/36/contents/54/5e7077cb4aa5a/75i0mxaSEP/event/firstQuartile]]></Tracking><Tracking event="midpoint"><![CDATA[http://fastclickplatform.com/services/vast/5JDKhdZ4-bPHG-wsFs-V3de-1DzKEWJdiHTd/59/campaigns/36/contents/54/5e7077cb4aa5a/75i0mxaSEP/event/midpoint]]></Tracking><Tracking event="thirdQuartile"><![CDATA[http://fastclickplatform.com/services/vast/5JDKhdZ4-bPHG-wsFs-V3de-1DzKEWJdiHTd/59/campaigns/36/contents/54/5e7077cb4aa5a/75i0mxaSEP/event/thirdQuartile]]></Tracking><Tracking event="complete"><![CDATA[http://fastclickplatform.com/services/vast/5JDKhdZ4-bPHG-wsFs-V3de-1DzKEWJdiHTd/59/campaigns/36/contents/54/5e7077cb4aa5a/75i0mxaSEP/event/complete]]></Tracking>
+                        </TrackingEvents>
+                        <VideoClicks>
+                            <ClickThrough><![CDATA[http://fastclickplatform.com/services/click/vast/redirect?url=http%3A%2F%2Fbit.ly%2F2Uiwd9A%3Futm_source%3Dtavoos%26utm_medium%3Dvideo%26utm_content%3Dwww.tabnak.ir%26utm_campaign%3Dadv_36%26utm_term%3D54%26tavoos_campaign%3Dcamp-36%26tavoos_widget%3D59&gtoken=75i0mxaSEP#bike]]></ClickThrough>
+                        </VideoClicks>
+                        <MediaFiles>
+                            <MediaFile delivery="progressive" type="video/mp4"><![CDATA[7r0nyf9RNmfxrky6mAFKFd0MYGmp3gItJIhi8sHk.mp4]]></MediaFile>
+                        </MediaFiles>
+                    </Linear>
+                </Creative>
+            </Creatives>
+        </InLine>
+    </Ad>
+</VAST>

@@ -7,10 +7,15 @@
 <body>
     <div id="tavoos-video-player" class="embed-responsive-item"></div>
 
+    <video id="tavoos-video-player2">
+        <source src="7r0nyf9RNmfxrky6mAFKFd0MYGmp3gItJIhi8sHk.mp4"
+                type='video/mp4'>
+    </video>
+
     <script src="jwplayer.js"></script>
 
     <script>
-        jwplayer("tavoos-video-player").setup({
+        jwplayer("tavoos-video-player2").setup({
             "playbackRateControls": "true",
             "timeSliderAbove": "true",
             "width": "100%",
@@ -25,14 +30,14 @@
                 "sources": [
 
                     {
-                        "file": "https://tavoos.net/tavoos_contents/uploads/contentuploads/2020/03/10/IXBco21xMa5Pyds2i10wIOpmDVCbO0mY0OAzCz5W.mp4",
+                        "file": "7r0nyf9RNmfxrky6mAFKFd0MYGmp3gItJIhi8sHk.mp4",
                         "type": "mp4",
                         "label": "720p"
                     },
 
 
                     {
-                        "file": "https://tavoos.net/tavoos_contents/uploads/contentuploads/2020/03/10/IXBco21xMa5Pyds2i10wIOpmDVCbO0mY0OAzCz5W.mp4-vast.mp4",
+                        "file": "7r0nyf9RNmfxrky6mAFKFd0MYGmp3gItJIhi8sHk.mp4",
                         "label": "360p"
                     }
 
@@ -41,13 +46,14 @@
             }],
             skin:
                 {
-                    active: '#0082ce',
+                    active: '#ed145b',
                     controlbar: {
-                        iconsActive: '#E20022',
+                        iconsActive: 'rgb(234, 30, 101)',
                         icons: '#fff'
                     },
                     timeslider: {
-                        progress: '#E20022'
+                        progress: 'rgb(234, 30, 101)',
+                        rail : '#ccc'
                     },
                 },
 
@@ -56,10 +62,14 @@
 
             advertising: {
                 client: 'vast.js',
-                tag: 'https://tavoos.net/services/vast/bwC2LvAW-ggRw-8Ixh-YIwX-SJ4O0ZOSNSAf/26',
+                // tag: 'http://fastclickplatform.com/services/vast/5JDKhdZ4-bPHG-wsFs-V3de-1DzKEWJdiHTd/59/tstcamp',
+                // tag: 'http://elastic.in/vast.xml',
+                tag: 'https://tadv.didestan.net/www/api/vast/?zone=8',
+                // tag: 'https://pubads.g.doubleclick.net/gampad/ads?sz=480x70&iu=/124319096/external/single_ad_samples&ciu_szs=300x250&impl=s&gdfp_req=1&env=vp&output=vast&unviewed_position_start=1&cust_params=deployment%3Ddevsite%26sample_ct%3Dnonlinear&correlator=',
                 admessage: 'اتمام نمایش تبلیغ تا xx ثانیه دیگر',
                 cuetext: 'تبلیغ',
-                skipmessage: 'رد کردن تبلیغ (xx ثانیه)',
+                // skipmessage: 'رد کردن تبلیغ (xx ثانیه)',
+                skipmessage: 'xx ثانیه',
                 skiptext: 'رد کردن تبلیغ',
                 requestTimeout: 7000
             },
@@ -71,6 +81,22 @@
 
             }
 
+        });
+        //fix fullscreen
+        jwplayer("tavoos-video-player2").on("fullscreen", function() {
+            var isPlayerFullscreen = jwplayer("tavoos-video-player2").getFullscreen();
+            if (isPlayerFullscreen) {
+                // playerClasses = $("#tavoos-video-player2").attr("class");
+                playerClasses = document.getElementById("tavoos-video-player2").className;
+
+            }
+            else {
+                setTimeout(function () {
+                    // $("#tavoos-video-player2").removeClass("jw-flag-fullscreen");
+                    document.getElementById("tavoos-video-player2").classList.remove("jw-flag-fullscreen");
+                    // $("#tavoos-video-player2").attr("class", playerClasses);
+                }, 100);
+            }
         });
     </script>
 

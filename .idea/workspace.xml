@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b4e434ed-6bbf-4402-a56e-456a62802363" name="Default Changelist" comment="" />
+    <list default="true" id="b4e434ed-6bbf-4402-a56e-456a62802363" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vast.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/demo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jwplayer.core.controls.html5.js" beforeDir="false" afterPath="$PROJECT_DIR$/jwplayer.core.controls.html5.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/khabarfoori-jwplayer.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tavoos-player.css" beforeDir="false" afterPath="$PROJECT_DIR$/tavoos-player.css" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,18 +25,28 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1Z1ASNQl68Xl6Albncd87iDbyQU" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -51,11 +70,38 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1583996225378</updated>
-      <workItem from="1583996226815" duration="14264000" />
+      <workItem from="1583996226815" duration="15517000" />
+      <workItem from="1584028174249" duration="760000" />
+      <workItem from="1584036260514" duration="13000" />
+      <workItem from="1584039330982" duration="789000" />
+      <workItem from="1584087115255" duration="5019000" />
+      <workItem from="1584279242678" duration="645000" />
+      <workItem from="1584284691057" duration="110000" />
+      <workItem from="1584287546266" duration="2000" />
+      <workItem from="1584292405528" duration="152000" />
+      <workItem from="1584429942938" duration="232000" />
+      <workItem from="1584430474034" duration="22000" />
+      <workItem from="1584433667539" duration="1237000" />
+      <workItem from="1585219747587" duration="7442000" />
+      <workItem from="1585243762392" duration="1209000" />
+      <workItem from="1585245568413" duration="2289000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
