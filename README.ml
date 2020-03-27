@@ -45,7 +45,7 @@ tavoos_init_player(url_of_player_folder,target_div_id,image,source,vast_url)
             <div id="myplayer"></div>
             <script>
                 tavoos_init_player(
-                        'https://navatv.com/tavoosplayer/',
+                        'https://tavoos.net/tavoos_player/',
                         'myplayer',
                         'thumbnail'
                          [
