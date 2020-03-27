@@ -37,3 +37,24 @@ tavoos_init_player(url_of_player_folder,target_div_id,image,source,vast_url)
          ]
 
     vast_url : The Vast URL given from Tavoos Platform  Example : https://tavoos.net/services/vast/5JDKhdZ4-bPHG-wsFs-V3de-1DzKEWJdiHTd/59
+
+
+    EXAMPLE :
+            <script src="https://tavoos.net/tavoos_player/jwplayer/jwplayer.js?ver=3.50"></script>
+            <script src="https://tavoos.net/tavoos_player/jwplayer/vastlink.js"></script>
+            <div id="myplayer"></div>
+            <script>
+                tavoos_init_player(
+                        'https://navatv.com/tavoosplayer/',
+                        'myplayer',
+                        'thumbnail'
+                         [
+                             {
+                                 "file": "file.mp4",
+                                 "type": "mp4",
+                                 "label": "720px"
+                             }
+                         ],
+                        'https://tavoos.net/services/vast/F9nDAKX7-k0ue-cViA-XgXB-F0lDAEzw717k/77'
+                );
+            </script>
