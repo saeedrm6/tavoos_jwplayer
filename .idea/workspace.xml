@@ -2,13 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4e434ed-6bbf-4402-a56e-456a62802363" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vast.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.ml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/captions-hover.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/captions-hover.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/close-hover.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/close-hover.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fullscreen-off-hover.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fullscreen-off-hover.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fullscreen-on-hover.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fullscreen-on-hover.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/next-hover.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/next-hover.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/pause-hover.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/pause-hover.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/play-hover.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/play-hover.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/play-idle-hover.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/play-idle.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/playlist-hover.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/playlist-hover.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/quality-hover.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/quality-hover.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/replay-hover.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/replay-hover.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/rewind-hover.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/rewind-hover.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/settings-hover.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/settings-hover.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/volume-off-hover.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/volume-off-hover.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/volume-on-hover.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/volume-on-hover.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/demo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jwplayer.core.controls.html5.js" beforeDir="false" afterPath="$PROJECT_DIR$/jwplayer.core.controls.html5.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/khabarfoori-jwplayer.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jwplayer.controls.js" beforeDir="false" afterPath="$PROJECT_DIR$/jwplayer.controls.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jwplayer.core.controls.js" beforeDir="false" afterPath="$PROJECT_DIR$/jwplayer.core.controls.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jwplayer.js" beforeDir="false" afterPath="$PROJECT_DIR$/jwplayer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tavoos-player.css" beforeDir="false" afterPath="$PROJECT_DIR$/tavoos-player.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,7 +55,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="/var/www/nava" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
@@ -84,7 +99,9 @@
       <workItem from="1584433667539" duration="1237000" />
       <workItem from="1585219747587" duration="7442000" />
       <workItem from="1585243762392" duration="1209000" />
-      <workItem from="1585245568413" duration="2289000" />
+      <workItem from="1585245568413" duration="2690000" />
+      <workItem from="1585292621810" duration="14766000" />
+      <workItem from="1585331649287" duration="3450000" />
     </task>
     <servers />
   </component>

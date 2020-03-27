@@ -60,6 +60,9 @@ button.vast-clickThrough {
 .jwplayer.jw-flag-ads .jw-controlbar .jw-slider-time .jw-slider-container{
     height: 4px !important;
 }
+.jwplayer.jw-flag-ads .jw-controlbar .jw-slider-time{
+    height: 10px !important;
+}
 .jw-skip.jw-reset{
     right: 1em !important;
     background-color: rgba(0,0,0,0.55) !important;
@@ -90,7 +93,7 @@ button.vast-clickThrough {
     height: 7px !important;
 }
 .jw-flag-ads .jw-slider-time{
-    width: 98% !important;
+    width: 94% !important;
 }
 
 
@@ -100,13 +103,15 @@ button.vast-clickThrough {
 }
 
 .jw-state-idle .jw-svg-icon-play {
-    background-image: url("assets/play-idle.svg");
+    background-image: url("assets/tavoos-play.png");
     background-size: contain;
     background-repeat: no-repeat;
+    transition: all .3s ease-in-out;
 }
 
 .jw-state-idle .jw-display-icon-container:hover .jw-svg-icon-play {
-    background-image: url("assets/play-idle-hover.svg");
+    background-image: url("assets/tavoos-play-hover.png");
+    transition: all .3s ease-in-out;
 }
 
 .jw-state-paused .jw-svg-icon-play path {
@@ -143,7 +148,7 @@ button.vast-clickThrough {
 }
 
 .jw-svg-icon-buffer {
-    background-image: url("assets/buffer.svg");
+    background-image: url("assets/buffer2.png");
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -324,4 +329,6 @@ button.vast-clickThrough {
     background-image: url("assets/fullscreen-off-hover.svg");
 }
 
-
+.glyphicon-new-window:before{
+    color:white !important;
+}
