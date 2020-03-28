@@ -75,13 +75,11 @@ button.vast-clickThrough {
     /*border-top-right-radius: 25px;*/
     /*border-top-left-radius: 25px;*/
 }
+
+
+
 .jw-controlbar.jw-reset{
     background: rgba(0,0,0,0.7) !important;;
-    left: 15% !important;
-    right: 15% !important;
-    width: 70% !important;
-    bottom: 2% !important;
-    border-radius: 25px !important;
 }
 .jw-breakpoint-7 .jw-controlbar .jw-button-container{
     padding: 0 48px 5px !important;
@@ -332,3 +330,29 @@ button.vast-clickThrough {
 .glyphicon-new-window:before{
     color:white !important;
 }
+
+@media (min-width: 550px) {
+    .jw-controlbar.jw-reset{
+        background: rgba(0,0,0,0.7) !important;;
+        left: 15% !important;
+        right: 15% !important;
+        width: 70% !important;
+        bottom: 2% !important;
+        border-radius: 25px !important;
+    }
+}
+@media (max-width: 549px) {
+    .jw-skip{
+        bottom: 50% !important;
+    }
+    .jw-plugin{
+        bottom: 50% !important;
+    }
+    .jw-plugin.jw-reset{
+        padding: 0.5em !important;
+    }
+    button.vast-clickThrough{
+        font-size: 12px;
+    }
+}
+
