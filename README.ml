@@ -7,7 +7,7 @@ Setup
 
 Add these script tags in <head></head> of document
 
-            <script src="https://tavoos.net/tavoos_player/jwplayer/jwplayer.js?ver=1"></script>
+            <script src="https://tavoos.net/tavoos_player/jwplayer/jwplayer.js?ver=1" data-TavoosFolder="PATH-OF-TAVOOS-PLAYER" id="tavoos_jwplayer_main_script"></script>
             <script src="https://tavoos.net/tavoos_player/jwplayer/vastlink.js"></script>
 
 /*****
@@ -17,8 +17,7 @@ to call player in every place , first you need a div with id
 for example : <code><div id="vidcounter"></div></code>
 then you need a script tag to call tavoos_init_player()
 tavoos_init_player() need 5 parameters to execute.
-tavoos_init_player(url_of_player_folder,target_div_id,image,source,vast_url)
-    url_of_player_folder : current folder of player EXAMPLE : "https://tavoos.net/tavoos_player/jwplayer/"
+tavoos_init_player(target_div_id,image,source,vast_url)
     target_div_id : target div that you want to init player  Example : vidcounter
     image : the thumbnail photo of video (string/url)  Example : https://tavoos.net/tavoos_contents/uploads/contentuploads/2020/03/10/IXBco21xMa5Pyds2i10wIOpmDVCbO0mY0OAzCz5W.mp4-thumbnail.jpg
     source : (Type : Array) you have to pass videos via array format Example :
@@ -40,12 +39,11 @@ tavoos_init_player(url_of_player_folder,target_div_id,image,source,vast_url)
 
 
     EXAMPLE :
-            <script src="https://tavoos.net/tavoos_player/jwplayer/jwplayer.js?ver=3.50"></script>
+            <script src="https://tavoos.net/tavoos_player/jwplayer/jwplayer.js?ver=3.50" data-TavoosFolder="https://tavoos.net/tavoos_player/jwplayer/" id="tavoos_jwplayer_main_script"></script>
             <script src="https://tavoos.net/tavoos_player/jwplayer/vastlink.js"></script>
             <div id="myplayer"></div>
             <script>
                 tavoos_init_player(
-                        'https://tavoos.net/tavoos_player/jwplayer/',
                         'myplayer',
                         'thumbnail'
                          [
